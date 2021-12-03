@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hack-halcones",
+  "private_key_id": "b71e2a0d95cd3ee34e9d6f337024cae17cebe9c3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpg7b8hCL2zzla\n2jTR7Q8F1OF9RyW/wjDFi6ICA8JMOmyl1Z9vrU6BlQsgJ/dxPClVF56GGS+4HIxl\ny3EzqxG8yN+GoPtNVEIb6cd2aJGVqI4DlI6x4Xt97fNEdNZFWq3YdqP/Ar7qFPqg\ncf/vkPsXsQfd7YQ8tBmdlvyoh7OWMuUI90Qn3nX1Z/dzvAI5RmaUL6qRQeDSTcBC\nRziK1Vm1lirYFd6gB5zDnupS2ocCRyxsuD0gi9YtRVS2COcTDp4Qap546ZM5pFtC\nRpj6ZxS9wjsJfFUOOBk6KWHrh0+bsPPJXFM8ysql2QiRco3mnh7xWolWovQqhjuG\n7nV7D6QHAgMBAAECggEAQhDJkmTVU6ezzMraZy6i+jzbnP3Loo7Gf1dKTsq0QQ1M\nJt25A8dhn3M9IM0yzPkLitRnvg+232SQ+2NsvRxhD1iidU/sYVkDYumcCXP7uX41\nywNtEbq1bID+nKGEmQccVg73H34sdgKzIzEK9I1mrvcZ/86ACUCP8zFTS0OIJHMT\nGkcDpkzKYhepnK3f2BUWDgqDQcKjNTbbxE10E3iiwYUz03Qn71nf9CtJ7K593kOW\nxReXsPr5lyYjDIyZCvl8wrNwQ0vkNOdSFrLc5VjnLCWStqZpto+/dGceqZErnaNQ\n1JJAFa3t4huXxaQ2ZRA8cHZaYWkd3k1uQo7t9VY1cQKBgQDSBMVuvQ4L1Hcs8ABT\nkOWTjDnYuURvWZme2kH/bIf/hxwqTb1pDdIGvs+xfE0K2k5I6kDkcfSN6gRjW54g\n/0UIU3VJJ3WGOhd/mhuHP37FMcnOCdzN9d0ROUHQVyybxRXquVocat6TEf9AjGCG\n5N5muhbf4jArLUWpu8W09XBLRQKBgQDOoL+JEjV/KuH13pBmIkPbep1EHrD11TZq\nddHIZMt0qPRYiIBlVttUFscaSge3Zx7njU6gVq9kJQcmXc7suqkDhmSJG7CiDEin\nUXE2VLfLrXBULhjhB3Z0BtowDTrWpiqi1QEQolrVA4yMK/+vectpOt1SVwG3Vceh\nP6vYCFZA2wKBgDAgW8XWmONpGq43iTudFp7LIW5idiY2GBfo1/raOgf6RCAFlIQA\nYMKe8yUu4NC92fanh5tR6cKjf8Hs+r2BAaa4yUWsPyg1I7Ff9TL2/+vcTuxiIjEo\nSDJsNoKxl01SyoTxWI7uhnaZRy7ZfD0tMTHFLvy67mLWiwIsP1AKdmMpAoGAWeTV\nb2zcmVaut6j8aXK+0t2lTd2MX2dDJU3c1rIDUd2vcFTyhyQih5LhTC6o7MGQUGzJ\nqDgOViNF2Qs22wbaQQ5W7s99KQLvGNv1xQ1WaOYr2HO1nzD/97qDciRPVNM1+WFx\n9SqtGb9RhioeMtlqBX32i7wOoxROpXht6q6118ECgYEAi1rch4JJucyHZH53llzQ\nUUwiCT6yBO4eWxeIYj8FPMLujxRHMbP8/Sf/+SBDDC1eogUt73xmfWTKU8nLp2p3\nBgazl9dnhxXiq8gjXOx1BBUZkOwrQTDEsPHJF+jJu1oBeNSHA6rHUY/dHBId37l9\nh41ttjyetehCZXC9DiwNqHY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hack-halcones@appspot.gserviceaccount.com",
+  "client_id": "100664537395357040845",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hack-halcones%40appspot.gserviceaccount.com"
+}
