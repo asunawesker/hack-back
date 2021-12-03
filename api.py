@@ -68,6 +68,15 @@ def insert(name, color):
                 cx.commit()
                 cx.close()
 
+def get_patients():
+    cx = get_connection()
+    patients = []
+    with cx.cursor() as cursor:
+        cursor.execute("SELECT * FROM api")
+        patients = cursor.fetchall()
+    cx.close()
+    return patients
+
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
  
@@ -75,7 +84,7 @@ app = Flask(__name__)
 app.send_file_max_age_default = timedelta(seconds=1)
  
  
-@ app.route ('/upload', methods = ['POST', 'GET']) 
+@app.route ('/upload', methods = ['POST']) 
 def upload():
     if request.method == 'POST':
         color = int(request.form.get("color"))
@@ -100,6 +109,11 @@ def upload():
         else:
             insert(name, color)
             return 'Ok'
+
+@app.route("/patients", methods = ['GET'])
+def juegos():
+    response = get_patients()
+    return jsonify(response)
  
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='127.0.0.1', port=5000)
